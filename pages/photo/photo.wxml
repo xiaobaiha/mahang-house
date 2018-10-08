@@ -1,0 +1,131 @@
+<!--index.wxml-->
+<view class='body'>
+
+  <view><image src="https://wx3.sinaimg.cn/mw690/0069G5Eigy1fp10niv5amj30en05nt99.jpg" class='headImage'/></view>
+  <view class="card1">
+    <view>
+      <image class="image" src="https://wx3.sinaimg.cn/mw690/0069G5Eigy1fp10p8ljkmj30qo0zkb29.jpg" animation="{{animationData1}}" />
+      <view class="title">
+        <text>我们一起坐在咖啡厅</text>
+      </view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx1.sinaimg.cn/mw690/0069G5Eigy1fp10p86k5qj30qo0zkb29.jpg" animation="{{animationData2}}"/>
+      <view class="title">我们一起吃你最爱的冰淇淋</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx3.sinaimg.cn/mw690/0069G5Eigy1fp10p2tx2kj30rs0rse1j.jpg" animation="{{animationData1}}" />
+      <view class="title">我们是对方最美的记忆</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx4.sinaimg.cn/mw690/0069G5Eigy1fp10p0rrn9j30qo0zk44c.jpg" animation="{{animationData3}}" />
+      <view class="title">你挽着我的手臂幸福地走在人群里</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx4.sinaimg.cn/mw690/0069G5Eigy1fp10jcv9phj30u01hc1kx.jpg" animation="{{animationData1}}" />
+      <view class="title">你笑，我陪着你笑</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx2.sinaimg.cn/mw690/0069G5Eigy1fp10j8bs2gj30u01hc1kx.jpg" animation="{{animationData2}}" />
+      <view class="title">你哭我就逗你开心</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx1.sinaimg.cn/mw690/0069G5Eigy1fp10j7278pj30u01hc1ih.jpg" animation="{{animationData1}}" />
+      <view class="title">如果你生气不理我</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx3.sinaimg.cn/mw690/0069G5Eigy1fp10pa9zv3j30s411iqv5.jpg" animation="{{animationData3}}" />
+      <view class="title">我就会厚着脸皮向你贴近</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx2.sinaimg.cn/large/0069G5Eigy1fp10xlxnndj311i0s4npd.jpg" animation="{{animationData1}}" />
+      <view class="title">不管未来怎样都无所畏惧</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx3.sinaimg.cn/mw690/0069G5Eigy1fp1191mbaaj30qr0zk0v8.jpg" animation="{{animationData2}}" />
+      <view class="title">一辈子都说我爱你</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx3.sinaimg.cn/mw690/0069G5Eigy1fp11l3mi9bj30qo0zk4qp.jpg" animation="{{animationData1}}" />
+      <view class="title">让两个城市聆听我们幸福的声音</view>
+    </view>
+  </view>
+  
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx2.sinaimg.cn/mw690/0069G5Eigy1fp11l1ma86j30qo0zkgoh.jpg" animation="{{animationData3}}" />
+      <view class="title">就在一起谁让我们相遇</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx2.sinaimg.cn/mw690/0069G5Eigy1fp11l4sia8j30qo0zke81.jpg" animation="{{animationData1}}" />
+      <view class="title">以后的日子我们一起相依</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx2.sinaimg.cn/mw690/0069G5Eigy1fp11l1j9lij30qo0zkn0d.jpg" animation="{{animationData2}}" />
+      <view class="title">我会宠着你，我会纵容你</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx4.sinaimg.cn/mw690/0069G5Eigy1fp11l2ffuuj30k00zkgpx.jpg" animation="{{animationData1}}" />
+      <view class="title">谁要欺负你我就站出保护你</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx1.sinaimg.cn/mw690/0069G5Eigy1fp11l1hl8fj30qo0zkact.jpg" animation="{{animationData3}}" />
+      <view class="title">就在一起一生相守不弃</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx1.sinaimg.cn/mw690/0069G5Eigy1fp11l2jpt1j30qo0zkgpi.jpg" animation="{{animationData1}}" />
+      <view class="title">就在一起谁都不许说分离</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx4.sinaimg.cn/mw690/0069G5Eigy1fp11l1vbwhj30qo0zk0vw.jpg" animation="{{animationData2}}" />
+      <view class="title">这段恋情，是上天给予</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx4.sinaimg.cn/mw690/0069G5Eigy1fp11o85hd0j30qo0zkdiz.jpg" animation="{{animationData1}}" />
+      <view class="title">会让我们成为这个世界上</view>
+    </view>
+  </view>
+  <view class="card">
+    <view>
+      <image class="image" src="https://wx3.sinaimg.cn/mw690/0069G5Eigy1fp11spi57zj30tv13ltj1.jpg" />
+      <view class="title">最美的情侣</view>
+    </view>
+  </view>
+  
+
+  <!-- <icon type="success" size="50" class="post" bindtap="onPostClick"/> -->
+</view>

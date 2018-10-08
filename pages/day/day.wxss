@@ -1,0 +1,156 @@
+/**day.wxss**/
+.heartico{
+  height: 45px;
+  width: 45px;
+}
+.circleImage{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+.meetingText{
+  color: #CD2990;
+  font-size: 46px;
+  position: relative;
+  left: 70px;
+}
+.meetingDayText{
+  position: relative;
+  left: 80px;
+}
+.headView{
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: 40px
+}
+.dayText{
+  color: white;
+  background-color: #3A5FCD;
+  width: 30px;
+  text-align: center;
+  /* position: relative;
+  left: 66px; */
+  border-radius: 0 9px 9px 0;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+.rightView{
+  display: flex;
+  justify-content: flex-end;
+}
+.birthText{
+  font-size: 24px;
+  color: white;
+  background-color: #63B8FF;
+  width: 60px;
+  text-align: center;
+  /* position: relative;
+  left:66px; */
+  /* border-radius: 10px; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+.borderView{
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.birthView{
+   border: 1px solid grey;
+  border-radius: 10px; 
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 55px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.text-test{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: 	#CD8500;
+  font-size: 20px;
+   margin: 0;  
+   padding: 0;
+  height: 50px;
+}
+.text-container{
+  margin: 20px;
+}
+.text-red{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: red;
+  margin: 5px;
+}
+.text-test text{
+  font-size: 36;
+}
+.text-container{
+  padding: 5px;
+}
+
+.class-item-text{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.class-item{
+  
+  height: 300px;
+}
+.class-item1{
+  
+   background-color: #ADFF2F; 
+}
+.class-item2{
+  background-color:#B2DFEE;
+}
+.class-item3{
+  background-color:#E066FF; 
+}
+.class-item4{
+   background-color:	#BDB76B;
+}
+swiper{
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: red;
+  height: 170px;
+}
+.infotext{
+  color: rgb(0, 255, 255);
+  font-size: 32px;
+}
+.infoContainer{
+  margin-left: 30px; 
+  margin-bottom: 10px; 
+} */

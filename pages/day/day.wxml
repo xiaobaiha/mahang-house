@@ -1,0 +1,12 @@
+<!--day.wxml-->
+<view class='body' >
+  <!-- <text>111</text> -->
+  <view class='headView'>
+    <image class='heartico' src='https://wx2.sinaimg.cn/mw690/0069G5Eigy1fp0zyo0n9ij301s01s3yc.jpg'></image>
+    <text>我们已相爱</text><text class='meetingText'>{{meetingDay}}</text><text class='meetingDayText'>天\n</text>
+  </view>
+  <image class='circleImage' src='https://wx4.sinaimg.cn/mw690/0069G5Eigy1fp0waevbquj300w00wglg.jpg'></image>
+  <view class='birthView'><view><text>距离航航生日还有</text></view><view class='rightView'><text class='birthText'>{{hanghangBirth}}</text><text class='dayText'>天\n</text></view></view>
+  <image class='circleImage' src='https://wx4.sinaimg.cn/mw690/0069G5Eigy1fp0waevbquj300w00wglg.jpg'></image>
+  <view class='birthView'><view><text>距离晶晶生日还有</text></view><view class='rightView'><text class='birthText'>{{jingjingBirth}}</text><text class='dayText'>天\n</text></view></view>
+</view>

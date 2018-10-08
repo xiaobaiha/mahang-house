@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/photo/photo",
+    "pages/day/day"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#B0E2FF",
+    "navigationBarTitleText": "马航的小窝",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color":"#EEEEE0",
+    "backgroundColor": "#F7F7F7",
+    "borderStyle": "white",
+    "selectedColor": "#B0E2FF",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"image/course_1.png",
+        "selectedIconPath":"image/course_2.png",
+        "text":"课程"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "iconPath": "image/test_1.png",
+        "selectedIconPath": "image/test_2.png",
+        "text": "点点滴滴"
+      },
+      {
+        "pagePath": "pages/day/day",
+        "iconPath": "image/day_1.png",
+        "selectedIconPath": "image/day_2.png",
+        "text": "纪念日"
+      }
+    ]
+  }
+}

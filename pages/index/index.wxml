@@ -1,0 +1,83 @@
+<!--index.wxml-->
+<view class='body' >
+  <view class="text-container">
+      <view class="text-test">{{frontText}}</view>
+      <view class="text-test"><text animation="{{animationData}}">{{timeLeft}}</text></view>
+      <view class="text-test">{{nextClass}}</view>
+      <view class="text-test">{{classRoom}}</view>
+  </view>
+  <view class='infoContainer'>
+  <icon type="info" size="30" color="rgb(0,255,255)"/>
+  <text class="infotext">课表课程</text>
+  </view>
+  <view class="classname">
+    <swiper circular="true" indicator-dots="true" autoplay="true" interval="2000" >
+      <swiper-item> 
+        <view class='class-item class-item1'>
+          <text class='class-item-text'>{{firstClassTitle}}\n</text>
+          <text class='class-item-text'>{{firstClassName}}\n</text>
+          <text class='class-item-text'>{{firstClassTime}}\n</text>
+          <text class='class-item-text'>{{firstClassClassRoom}}\n</text>
+          <text class='class-item-text'>{{firstClassWeekStr}}\n</text>
+        </view>
+      </swiper-item>
+      <swiper-item wx:if="{{classNumToday>1}}">
+        <view class='class-item class-item2'>
+          <text class='class-item-text'>第二节课\n</text>
+          <text class='class-item-text'>{{secondClassName}}\n</text>
+          <text class='class-item-text'>{{secondClassTime}}\n</text>
+          <text class='class-item-text'>{{secondClassClassRoom}}\n</text>
+          <text class='class-item-text'>{{secondClassWeekStr}}\n</text>
+        </view>
+      </swiper-item>
+      <swiper-item wx:if="{{classNumToday>2}}">
+        <view class='class-item class-item3'>
+          <text class='class-item-text'>第三节课\n</text>
+          <text class='class-item-text'>{{thirdClassName}}\n</text>
+          <text class='class-item-text'>{{thirdClassTime}}\n</text>
+          <text class='class-item-text'>{{thirdClassClassRoom}}\n</text>
+          <text class='class-item-text'>{{thirdClassWeekStr}}\n</text>
+        </view>
+      </swiper-item>
+      <swiper-item wx:if="{{classNumToday>3}}">
+        <view class='class-item class-item4'>
+          <text class='class-item-text'>第四节课\n</text>
+          <text class='class-item-text'>{{fourthClassName}}\n</text>
+          <text class='class-item-text'>{{fourthClassTime}}\n</text>
+          <text class='class-item-text'>{{fourthClassClassRoom}}\n</text>
+          <text class='class-item-text'>{{fourthClassWeekStr}}\n</text>
+        </view>
+      </swiper-item>
+      <swiper-item wx:if="{{classNumToday>4}}">
+        <view class='class-item class-item5'>
+          <text class='class-item-text'>第五节课\n</text>
+          <text class='class-item-text'>{{fifthClassName}}\n</text>
+          <text class='class-item-text'>{{fifthClassTime}}\n</text>
+          <text class='class-item-text'>{{fifthClassClassRoom}}\n</text>
+          <text class='class-item-text'>{{fifthClassWeekStr}}\n</text>
+        </view>
+      </swiper-item>
+    </swiper>
+
+  </view>
+  <!-- <view class="container">
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}},{{userInfo.openid}}</text>
+      </block>
+    </view>
+    
+    <view class="usermotto">
+      <!-- <text class="user-motto" bindtap="changeTime">{{currentTime}}</text> -->
+      <!-- <text class="user-motto" bindtap="changeTime">{{frontText}}</text>
+      <text class="user-motto" bindtap="changeTime">{{timeLeft}}</text>
+      <text class="user-motto" bindtap="changeTime">{{nextClass}}</text>
+      <text class="user-motto" bindtap="changeTime">{{classRoom}}</text>
+    </view>
+  </view> -->
+  <!-- test -->
+  <!-- <view> Hello {{name}}! </view>
+  <button bindtap="changeName"> Click me! </button> -->
+</view>

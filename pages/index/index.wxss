@@ -1,0 +1,92 @@
+/**index.wxss**/
+.body{
+   /* background: #E0FFFF;  */
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.text-test{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* background-color: #E0FFFF; */
+  color: 	#CD8500;
+  font-size: 20px;
+   /* margin-left: 30px; */
+   margin: 0;  
+   padding: 0;
+  height: 50px;
+}
+.text-container{
+  margin: 20px;
+}
+.text-red{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: red;
+  margin: 5px;
+}
+.text-test text{
+  font-size: 36;
+}
+.text-container{
+  padding: 5px;
+}
+
+.class-item-text{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.class-item{
+  /* display: flex; */
+  
+  height: 300px;
+}
+.class-item1{
+  
+   background-color: #ADFF2F; 
+}
+.class-item2{
+  background-color:#B2DFEE;
+}
+.class-item3{
+  background-color:#E066FF; 
+}
+.class-item4{
+   background-color:	#BDB76B;
+}
+swiper{
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: red;
+  height: 170px;
+}
+.infotext{
+  color: rgb(0, 255, 255);
+  font-size: 32px;
+}
+.infoContainer{
+  margin-left: 30px; 
+  margin-bottom: 10px; 
+}
